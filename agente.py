@@ -67,7 +67,7 @@ def predecir_enfermedad_cardiaca(
 llm_agente = ChatGroq(
     model="llama-3.3-70b-versatile",
     temperature=0.2,
-    max_tokens=1024,
+    max_tokens=300,
 )
 
 tools         = [predecir_enfermedad_cardiaca]
