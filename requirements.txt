@@ -1,0 +1,12 @@
+
+langchain
+langchain-groq
+langchain-community
+fastapi
+uvicorn
+redis
+pydantic
+joblib
+scikit-learn
+numpy
+pandas
